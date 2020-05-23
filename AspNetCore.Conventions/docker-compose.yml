@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aspnetcore.conventions:
+    image: ${DOCKER_REGISTRY-}aspnetcoreconventions
+    build:
+      context: .
+      dockerfile: Dockerfile
