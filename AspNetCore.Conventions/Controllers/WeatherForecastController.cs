@@ -7,6 +7,10 @@ using Microsoft.Extensions.Logging;
 
 namespace AspNetCore.WebConventions.Controllers
 {
+    /// <summary>
+    /// No one is sure why Microsoft loves the Weather Controller, but hell, let's just
+    /// go with it.
+    /// </summary>
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -23,6 +27,10 @@ namespace AspNetCore.WebConventions.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Get me some weather results back if requested (GET)
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         [ApiConventionMethod(typeof(DefaultApiConventions),
                      nameof(DefaultApiConventions.Get))]
