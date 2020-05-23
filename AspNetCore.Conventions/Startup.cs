@@ -5,7 +5,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-[assembly: ApiConventionType(typeof(DefaultApiConventions))]
 namespace AspNetCore.WebConventions
 {
     public class Startup
