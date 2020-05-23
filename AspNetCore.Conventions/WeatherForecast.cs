@@ -1,6 +1,6 @@
 using System;
 
-namespace AspNetCore.Conventions
+namespace AspNetCore.WebConventions
 {
     public class WeatherForecast
     {

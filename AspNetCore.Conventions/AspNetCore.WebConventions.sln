@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Conventions", "AspNetCore.Conventions.csproj", "{F93BCD6C-D641-41ED-8212-FDA07E1F6DE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.WebConventions", "AspNetCore.WebConventions.csproj", "{F93BCD6C-D641-41ED-8212-FDA07E1F6DE1}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{67F0D546-710D-4DE4-BF67-B30EA8D94833}"
 EndProject
