@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+[assembly: ApiConventionType(typeof(DefaultApiConventions))]
 namespace AspNetCore.WebConventions
 {
     public class Startup
@@ -42,7 +43,8 @@ namespace AspNetCore.WebConventions
                }
            );
 
-            services.AddControllers();
+            services.AddControllers()
+                .SetCompatibilityVersion(CompatibilityVersion.Latest);
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
